@@ -1,5 +1,11 @@
 module ProbabilityThing
 
-# Write your package code here.
+using QuadGK
+
+include("abstract.jl")
+include("api.jl")
+
+include("normal.jl")
+include("uniform.jl")
 
 end
